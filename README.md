@@ -8,8 +8,6 @@ The underlying data used for the modeling consisted of a total of 77,536 observa
 
 The data was split into training and test datasets, with 75% being used for training.
 
-After splitting into train and test datasets, both datasets underwent standarization of the features using a StandardScaler fit to the training data.
-
 Both models used were logistic regression models, using Scikit-learn's LogisticRegression model. One model used the original data while the second was resampled using imblearn's RandomOverSampler.
 
 The oversampled data showed a balanced dataset with 56,244 observations for both the 'healthy' and 'high risk' loans.
